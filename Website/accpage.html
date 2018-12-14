@@ -1,0 +1,64 @@
+<!DOCTYPE html> 
+<html>
+
+<style>
+/* Ensure proper sizing */
+* {
+  box-sizing: border-box;
+}
+
+/* Column container */
+.row { 
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.side {
+    flex: 30%; /* Set the width of the sidebar */
+    /*background-color: #f1f1f1; */
+    background-color: #4498C4;
+    /*background-color: #808080;*/
+    padding: 20px; /* Some padding */
+    color: white;
+}
+
+/* Main column */
+.main { 
+    flex: 70%; /* Set the width of the main content */
+    background-color: white; /* White background color */
+    padding: 20px; /* Some padding */
+}
+</style>
+
+
+<body>
+  <div class="row">
+	  <div class="side">
+	  	<h1> Take a look at our Video! </h1>
+      <h4> This video shows the evolution in number of accidents across the UK throughout the years. </h4>
+      <h4> In the bargraphs displayed, the orange bar corresponds to the number of 'Serious' accidents, and the blue bar corresponds to the number of 'Fatal' accidents that have occurred in that district.</h4>
+      <h4> The heatmap underneath the bargraphs represents the number of hospitals in that area. </h4>
+      <h4> Let's analyse what we're seeing with two simple questions: </h4>
+      <h4> 1. Is there any correlation between areas with the most number of accidents and the most hospitals around? </h4>
+      <h4> 2. How is the number of accidents changing with time? </h4>
+      <!-- <h4> We can see that the there does appear to be a large number of hospitals in areas where the majority of accidents are occurring. </h4>
+      <h4> We also observe the fact that the number of accidents seem to be increasing as time goes on. This seems pretty counter-intuitive, as we expect the number of accidents to go down as technology improves. </h4> -->
+      <h4> Visit our analysis section for more insight into the causes of why this is happening! </h4>
+
+	  </div>
+
+	  <div class="main">
+	  	<video width="800" height="600" controls autoplay muted>
+		<source src="Tour5.mp4" type="video/mp4">
+		
+	  </div>
+  </div>
+  
+</video>
+</body>
+</html>
+
+
+

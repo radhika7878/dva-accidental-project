@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<style>
+img {
+    display:table;
+    margin: auto;
+}
+* {
+    box-sizing: border-box;
+}
+
+.column {
+    float: left;
+    width: 50%;
+    padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+</style>
+<link rel="stylesheet" href="styles/w3.css" />
+<body>
+
+    <div class="w3-container w3-teal">
+        <h1>Accident counts by various factors</h1>
+    </div>
+
+    <div class="row" style = "margin-top: 30px">
+        <div class="column">
+            <img src="../PowerBI Trivial Analysis/Accident by Age of Vehicle and Severity.PNG" alt="Snow" style="width:100%">
+        </div>
+        <div class="column">
+            <img src="../PowerBI Trivial Analysis/Accident by Day of Week and Severity.PNG" alt="Forest" style="width:100%">
+        </div>
+    </div>
+
+    <div class="row" style = "margin-top: 30px">
+        <div class="column">
+            <img src="../PowerBI Trivial Analysis/Accident by First point of Impact and Severity.PNG" alt="Snow" style="width:100%">
+        </div>
+        <div class="column">
+            <img src="../PowerBI Trivial Analysis/Accident by Severity and Hour of the day.PNG" alt="Forest" style="width:100%">
+        </div>
+    </div>
+
+    <div class="w3-container w3-teal">
+        <h1>Accident percent for each rule</h1>
+    </div>
+
+    <div style = "margin-top: 30px">
+        <img src="image003.png" alt="Trulli" height="700" width="500">
+    </div>
+
+
+</body>
+</html>
